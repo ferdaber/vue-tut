@@ -1,0 +1,36 @@
+{
+  "name": "vue-tut",
+  "version": "1.0.0",
+  "description": "VueJS tutorial",
+  "main": "index.js",
+  "scripts": {
+    "build": "node_modules/.bin/webpack",
+    "start": "node_modules/.bin/webpack-dev-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/igrek312/vue-tut.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/igrek312/vue-tut/issues"
+  },
+  "homepage": "https://github.com/igrek312/vue-tut#readme",
+  "devDependencies": {
+    "css-loader": "^0.28.7",
+    "less": "^2.7.2",
+    "less-loader": "^4.0.5",
+    "ts-loader": "^2.3.7",
+    "typescript": "^2.5.2",
+    "vue-class-component": "^5.0.2",
+    "vue-loader": "^13.0.4",
+    "vue-template-compiler": "^2.4.4",
+    "webpack": "^3.6.0",
+    "webpack-dev-server": "^2.8.2"
+  },
+  "dependencies": {
+    "vue": "^2.4.4"
+  }
+}
