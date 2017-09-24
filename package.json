@@ -19,10 +19,13 @@
   },
   "homepage": "https://github.com/igrek312/vue-tut#readme",
   "devDependencies": {
+    "@types/node": "^8.0.30",
+    "@types/webpack": "^3.0.11",
     "css-loader": "^0.28.7",
     "less": "^2.7.2",
     "less-loader": "^4.0.5",
     "ts-loader": "^2.3.7",
+    "ts-node": "^3.3.0",
     "typescript": "^2.5.2",
     "vue-class-component": "^5.0.2",
     "vue-loader": "^13.0.4",

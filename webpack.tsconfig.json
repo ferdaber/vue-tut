@@ -1,0 +1,8 @@
+{
+    "extends": "./tsconfig",
+    "compilerOptions": {
+        // this takes advantage of tree shaking when webpack sees ES6 import statements
+        "module": "es2015"
+    },
+    "include": ["src/**/*"]
+}

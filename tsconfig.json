@@ -2,19 +2,14 @@
     "compilerOptions": {
         "allowSyntheticDefaultImports": true,
         "experimentalDecorators": true,
-        "lib": [
-            "dom",
-            "es2015",
-            "es2015.promise"
-        ],
-        "module": "es2015",
+        "lib": ["dom", "es2015", "es2015.promise"],
+        "module": "commonjs", // can't use es6 import statements in webpack.config.ts but now webpack can use es6 module tree shaking
         "moduleResolution": "node",
-        "outDir": "built",
         "sourceMap": true,
         "strict": true,
-        "target": "es5"
+        "allowJs": true,
+        "target": "es5",
+        "baseUrl": "./"
     },
-    "include": [
-        "src/**/*"
-    ]
+    "files": ["webpack.config.ts"]
 }
